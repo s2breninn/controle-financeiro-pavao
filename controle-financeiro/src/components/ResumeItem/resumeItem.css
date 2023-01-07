@@ -1,0 +1,42 @@
+.container-resume-item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 5px 15px;
+  width: 30%;
+}
+.cabecalho-resume-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 10px;
+}
+.cabecalho-resume-item svg {
+  width: 25px;
+  height: 25px;
+}
+p {
+  font-size: 20px;
+}
+span {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+@media (max-width: 750px) {
+  .container-resume-item {
+    width: 20%;
+  }
+  p {
+    font-size: 12px;
+  }
+  span {
+    font-size: 20px;
+  }
+  svg {
+    display: none;
+  }
+}

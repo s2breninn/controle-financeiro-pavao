@@ -1,0 +1,9 @@
+.container {
+  height: 150px;
+  text-align: center;
+  background: #008080;
+}
+h2 {
+  padding-top: 20px;
+  color: #fff;
+}
